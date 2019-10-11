@@ -1,0 +1,50 @@
+<?php include 'customerBackend.php';?>
+<html>
+<head>
+  <script type="text/javascript"
+          src="formChecker.js">
+  </script>
+    <link href="style.css"
+        rel="stylesheet"
+        type="text/css"/>
+
+
+</head>
+<body>
+  <button value="Verify" onclick="formCheck()">
+  Verify
+  </button>
+    <form action="customerBackend.php" onsubmit="formCheck()">
+        The Store for miniature relplica stores that sell stores<br>
+
+        Username <br>
+        <input type="text" name="Username" value="" id="username" ><br>
+        <br>Password <br>
+        <input type="password" name="Password" value="" id="password"><br>
+
+        <p>StoreThatStoresStoresinitsStoreswithStorage</p>
+        <p>Price $1000</p>
+        <input type="number" name="IHeardYouLikeStores" value="" id = "storeStore"> Number to buy<br>
+
+        <br><br>
+        <p>Just A Store</p>
+        <p>Price $100</p>
+        <input type="number" name="boring" value="" id="normalStore"> Number to buy<br>
+
+        <br><br>
+        <p>not Entirely sure what this is</p>
+        <p>Price $1337</p>
+
+        <input type="number" name="Random" value="" id ="random"> Number to buy<br>
+
+
+        <br>Shipping options<br>
+        <input type="radio" name="Shipping" value="Free" id="shippingFree"> Free 7 day shipping<br>
+        <input type="radio" name="Shipping" value="OverNight" id="shippingOver"> overnight $50 shipping<br>
+        <input type="radio" name="Shipping" value="threeDay" id="shippingThree"> Three day $5 dollar shipping<br>
+        <input type="submit">
+    </form>
+
+
+</body>
+</html>
